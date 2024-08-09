@@ -11,7 +11,6 @@
 
 **Instructions**
 
-```
 address-book/
 ├── index.html
 ├── login.html
@@ -30,11 +29,11 @@ address-book/
 
 1. Front-End (HTML & CSS):
 
-    index.html: Landing page.
-    login.html: Login page.
-    register.html: Registration page.
-    dashboard.html: User dashboard where they can manage contacts.
-    styles.css: Styling and animations for the website.
+    -index.html: Landing page.
+    -login.html: Login page.
+    -register.html: Registration page.
+    -dashboard.html: User dashboard where they can manage contacts.
+    -styles.css: Styling and animations for the website.
 
 2. Back-End (PHP):
 
@@ -49,5 +48,4 @@ address-book/
 3. JavaScript (script.js):
 
     Manages form submissions and dynamic updates for the contact list.
-```
 
