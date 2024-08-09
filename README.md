@@ -11,7 +11,7 @@
 
 **Instructions**
 
-address-book/
+**address-book/
 ├── index.html
 ├── login.html
 ├── register.html
@@ -43,9 +43,9 @@ address-book/
     logout.php: Logs out the user.
     add_contact.php: Adds a new contact.
     delete_contact.php: Deletes a contact.
-    get_contacts.php: Retrieves contacts for the logged-in user.
+    get_contacts.php: Retrieves contacts for the logged-in user.**
 
-3. JavaScript (script.js):
+4. JavaScript (script.js):
 
     Manages form submissions and dynamic updates for the contact list.
 
