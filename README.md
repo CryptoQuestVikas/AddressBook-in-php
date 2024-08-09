@@ -1,9 +1,9 @@
 # AddressBook-in-php
 
-**Language : 
+**Language : **
 > HTML CSS JAVASCRIPT PHP MYSQL
 
 
 
 ## Screenshot
-![Alt text](Addressbook.png)
+![Alt text](Adressbook.png)
