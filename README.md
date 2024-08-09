@@ -44,6 +44,9 @@
     add_contact.php: Adds a new contact.
     delete_contact.php: Deletes a contact.
     get_contacts.php: Retrieves contacts for the logged-in user.
+4. JavaScript (script.js):
+
+    Manages form submissions and dynamic updates for the contact list.
 ```
 
 ## SQL DATABASE COMMANDS
@@ -71,7 +74,5 @@ CREATE TABLE contacts (
 );
 ```
 
-4. JavaScript (script.js):
 
-    Manages form submissions and dynamic updates for the contact list.
 
