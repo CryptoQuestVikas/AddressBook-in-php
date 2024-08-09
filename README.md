@@ -50,7 +50,7 @@
 ```
 
 ## SQL DATABASE COMMANDS
->> Copy this code and open phpyadmin and paste in the sql section and click go to create database and all tables
+> Copy this code and open phpyadmin and paste in the sql section and click go to create database and all tables
 
 ```
 CREATE DATABASE address_book;
