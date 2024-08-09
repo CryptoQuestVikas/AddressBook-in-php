@@ -11,7 +11,7 @@
 
 **Instructions**
 
-**address-book/
+```address-book/
 ├── index.html
 ├── login.html
 ├── register.html
@@ -43,7 +43,33 @@
     logout.php: Logs out the user.
     add_contact.php: Adds a new contact.
     delete_contact.php: Deletes a contact.
-    get_contacts.php: Retrieves contacts for the logged-in user.**
+    get_contacts.php: Retrieves contacts for the logged-in user.
+```
+
+## SQL DATABASE COMMANDS
+
+```
+CREATE DATABASE address_book;
+
+USE address_book;
+
+-- Table for users
+CREATE TABLE users (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    username VARCHAR(50) UNIQUE NOT NULL,
+    password VARCHAR(255) NOT NULL
+);
+
+-- Table for contacts
+CREATE TABLE contacts (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    user_id INT NOT NULL,
+    name VARCHAR(100) NOT NULL,
+    phone VARCHAR(15),
+    email VARCHAR(100),
+    FOREIGN KEY (user_id) REFERENCES users(id) ON DELETE CASCADE
+);
+```
 
 4. JavaScript (script.js):
 
