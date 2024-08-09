@@ -11,7 +11,7 @@
 
 **Instructions**
 
-```address-book/
+``address-book/
 ├── index.html
 ├── login.html
 ├── register.html
@@ -47,7 +47,7 @@
 4. JavaScript (script.js):
 
     Manages form submissions and dynamic updates for the contact list.
-```
+``
 
 ## SQL DATABASE COMMANDS
 > Copy this code and open phpyadmin and paste in the sql section and click go to create database and all tables
